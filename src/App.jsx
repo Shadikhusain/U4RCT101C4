@@ -5,7 +5,12 @@ function App() {
   return (
     <div className="App">
     <img src="" alt="" />
-    <p>this is a p tag</p>
+    <form action="">
+      <input type="enter doctor name"  placeholder='enter doctor name'/>
+      <input type="enter hospital name" placeholder='enter hospital name' />
+      <button>Submit</button>
+      <button>Submit</button>
+    </form>
     </div>
   );
 }
